@@ -3,5 +3,5 @@ port: 8000
 models: models.py
 database: database
 apis:
-  model: articles
-  methods: POST
+  table: articles
+  methods: GET
