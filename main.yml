@@ -1,7 +1,10 @@
 host: 0.0.0.0
-port: 8000
+port: 4000
 models: models.py
 database: database
 apis:
-  table: articles
-  methods: GET
+  articles:
+    table: articles
+    methods: [GET, POST]
+  
+
