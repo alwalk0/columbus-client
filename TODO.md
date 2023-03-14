@@ -3,5 +3,5 @@
 * comments
 * better error handling for config
 * add watchfiles poetry
-* check function and module names
-* figure out a better way to run without db
+* rename startup_script in pyproject.toml
+* double check variable names
